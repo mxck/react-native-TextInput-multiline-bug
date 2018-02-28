@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { View, TextInput } from "react-native";
 
 const LOREM =
@@ -9,12 +9,12 @@ export default function App() {
     <View>
       <TextInput value={LOREM} multiline />
       <TextInput
-        style={{ fontFamily: "OpenSans-Bold" }} // Broke
+        style={{ fontFamily: "OpenSans-Bold" }}
         value={LOREM}
         multiline
       />
       <TextInput
-        style={{ fontFamily: "Nunito-Regular", fontWeight: "100" }}
+        style={{ fontFamily: "Nunito-Regular" }}
         value={LOREM}
         multiline
       />
