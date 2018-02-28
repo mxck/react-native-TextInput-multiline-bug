@@ -1,0 +1,3 @@
+rootProject.name = 'temo'
+
+include ':app'
